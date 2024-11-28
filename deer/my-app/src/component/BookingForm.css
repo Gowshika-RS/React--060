@@ -1,0 +1,69 @@
+.booking-form {
+    /* Set full height and width for the background image */
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?cs=srgb&dl=pexels-pixabay-258154.jpg&fm=jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-content {
+    /* Set a max-width to reduce the width of the form */
+    max-width: 400px; /* Adjust this value as needed */
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%; /* Ensure inputs take the full width of the form */
+    padding: 8px; /* Reduced padding for a more concise look */
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    width: calc(100% - 30px); /* Set width and subtract margin for alignment */
+    max-width: 350px; /* Set a max-width to control how wide it gets */
+    height: 40px; /* Set a smaller height for the textarea */
+    resize: none; /* Prevent resizing to keep it concise */
+    padding: 8px; /* Consistent padding with input fields */
+    margin-top: 5px;
+    margin-left: 15px; /* Add margin to the left for some space */
+    margin-right: 15px; /* Add margin to the right for some space */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    align-self: center; /* Center the textarea horizontally */
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

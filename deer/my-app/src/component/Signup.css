@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?cs=srgb&dl=pexels-pixabay-258154.jpg&fm=jpg'); /* Replace with your image URL */
+  background-size: cover; /* Ensures the background image covers the whole container */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat;
+}
+
+.signup-box {
+  background: linear-gradient(155deg, rgba(255, 255, 255, 0.5), rgba(245, 245, 245, 0.5)); /* Lighter, more transparent gradient */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+  outline: none;
+  transition: box-shadow 0.3s; /* Transition for smoother effect */
+}
+
+input:focus {
+  box-shadow: 0 0 10px rgba(66, 149, 185, 0.5); /* Focus effect */
+}
+
+button {
+  width: 100%;
+  padding: 0.75rem;
+  background: #2e2b2a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #4295b9;
+}
+
+.signup-link {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.signup-link a {
+  color: #0c0c0c;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .signup-box {
+      width: 90%; /* Full width on small screens */
+      padding: 1.5rem; /* Adjust padding */
+  }
+}
